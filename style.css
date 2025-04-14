@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.circle1{ 
+    position: absolute;
+    width: 80vh;
+    height: 80vh;
+ 
+    animation-name: abc;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+
+}
+@keyframes abc {
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes xyz {
+    to{
+        transform: rotate(-360deg);
+    }
+}
+.circle2{ 
+    position: absolute;
+    width: 65vh;
+    height: 65vh;
+    animation-name: abc;
+    border-radius: 50%;
+    animation-name: xyz;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    /* background-image: linear-gradient(red, blue); */
+}
+.circle2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scaleX(-1); /* flips horizontally */
+    border-radius: 50%;    /* make it circular like circle2 */
+}
+
+.circle3{ 
+    position: absolute;
+    width: 52vh;
+   
+    height: 52vh;
+    border-radius: 50%;
+    animation-name: abc;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+.circle3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   /* flips horizontally */
+    border-radius: 50%;    /* make it circular like circle2 */
+  
+}
+
+.circle4{ 
+    position: absolute;
+    width: 41vh;
+    height: 41vh;
+    animation-name: abc;
+    border-radius: 50%;
+    animation-name: xyz;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    /* background-image: linear-gradient(red, blue); */
+}
+.circle4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    transform: scaleX(-1); /* flips horizontally */
+    border-radius: 50%;    /* make it circular like circle2 */
+}
+.circle5{ 
+    position: absolute;
+    width: 33vh;
+    
+    height: 33vh;
+    border-radius: 50%;
+    animation-name: abc;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    /* background-color: red; */
+    animation-timing-function: linear;
+    border-radius: 50%;
+    animation-name: abc;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+.circle5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   /* flips horizontally */
+   
+    border-radius: 50%;    /* make it circular like circle2 */
+}
+.circle6{ 
+    position: absolute;
+    width: 27vh;
+    height: 27vh;
+    animation-name: abc;
+    border-radius: 50%;
+    /* background-image: linear-gradient(red, blue); */
+    animation-name: xyz;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+.circle6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scaleX(-1); /* flips horizontally */
+    border-radius: 50%;    /* make it circular like circle2 */
+}
+.circle7{ 
+    position: absolute;
+    width: 22vh;
+   
+    height: 22vh;
+    border-radius: 50%;
+    animation-name: abc;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+.circle7 img {
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+   /* flips horizontally */  
+    border-radius: 50%;    /* make it circular like circle2 */
+}
+.circle8{ 
+    position: absolute;
+    width: 18vh;
+    height: 18vh;
+    animation-name: abc;
+    border-radius: 50%;
+    animation-name: xyz;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    /* background-color: red; */
+    /* background-image: linear-gradient(red, blue); */
+}
+.circle8 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    transform: scaleX(-1); /* flips horizontally */
+    border-radius: 50%;    /* make it circular like circle2 */
+}
+.circle9{ 
+    position: absolute;
+    width: 14.3vh;
+   
+    height: 14.3vh;
+    border-radius: 50%;
+    animation-name: abc;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+.circle9 img {
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+   /* flips horizontally */  
+    border-radius: 50%;    /* make it circular like circle2 */
+}
+.circle10{ 
+    position: absolute;
+    width: 11.2vh;
+    height: 11.3vh;
+    animation-name: abc;
+    border-radius: 50%;
+    animation-name: xyz;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    /* background-color: red; */
+    /* background-color: red; */
+    /* background-image: linear-gradient(red, blue); */
+}
+.circle10 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    transform: scaleX(-1); /* flips horizontally */
+    border-radius: 50%;    /* make it circular like circle2 */
+}
+.circle11{ 
+    position: absolute;
+    width: 9.3vh;
+   
+    height: 9.3vh;
+    border-radius: 50%;
+    animation-name: abc;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    /* background-color: red; */
+    animation-timing-function: linear;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+.circle11 img {
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+   /* flips horizontally */  
+    border-radius: 50%;    /* make it circular like circle2 */
+}
+.circle12{ 
+    position: absolute;
+    width: 7.2vh;
+    height: 7.3vh;
+    animation-name: abc;
+    border-radius: 50%;
+    animation-name: xyz;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    /* background-color: red; */
+    /* background-color: red; */
+    /* background-image: linear-gradient(red, blue); */
+}
+.circle12 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    transform: scaleX(-1); /* flips horizontally */
+    border-radius: 50%;    /* make it circular like circle2 */
+}
